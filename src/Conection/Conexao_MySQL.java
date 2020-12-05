@@ -38,7 +38,7 @@ public class Conexao_MySQL {
         } catch (ClassNotFoundException | SQLException ex) {
             Logger.getLogger(Conexao_MySQL.class.getName()).log(Level.SEVERE, null, ex);
          
-            throw  new RuntimeException("Erro de Conexao :", ex);
+            throw  new RuntimeException("Erro ao Conectar :", ex);
         }
     }
     
